@@ -2,7 +2,10 @@
 
 .button{
   border: none;
-
+  background: white;
+  font-family: Source Sans Pro;
+  font-size: 14px;
+  font-weight: 400;
 &.gray{
   background: none;
   color:rgba(136,136,136,1);
