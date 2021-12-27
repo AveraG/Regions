@@ -1,5 +1,111 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700&display=swap");
 
-.world-traveler-header{
-    font-family: Source Sans Pro;
+.world-traveler-container {
+  font-family: Source Sans Pro;
+  .world-traveler-header {
+    font-weight: 300;
+    margin: 90px 0 30px 135px;
+  }
+  .london-container {
+    display: flex;
+    margin: 0 135px 0 135px;
+    .london-button-container {
+      display: flex;
+      position: absolute;
+      z-index: 2;
+      margin: 24px 0 0 0;
+      .london-color-block {
+        background-color: rgba(247, 181, 0, 1);
+        width: 5px;
+        height: 26px;
+        margin: 0;
+      }
+    }
+    .london-image {
+      width: 570px;
+      height: 402px;
+      position: relative;
+    }
+    .london-text-container {
+      background-color: #ffffffff;
+      padding: 80px 0 80px 32px;
+    }
+  }
+
+  .atlanta-singapore-container {
+    display: flex;
+    margin-top: 30px;
+    .atlanta-container {
+      display: flex;
+      margin: 0 30px 0 135px;
+      .atlanta-button-container {
+        display: flex;
+        position: absolute;
+        z-index: 2;
+        margin: 24px 0 0 0;
+        .atlanta-color-block {
+          background-color: rgba(50, 197, 255, 1);
+          width: 5px;
+          height: 26px;
+          margin: 0;
+        }
+      }
+      .atlanta-image {
+        width: 270px;
+        height: 187px;
+        position: relative;
+      }
+      .atlanta-text-container {
+        background-color: #ffffffff;
+        padding: 0 0 0 21px;
+        height: 187px;
+        width: 300px;
+        .atlanta-title {
+          margin: 5px 0;
+        }
+        .atlanta-text {
+          margin-top: 5px;
+        }
+      }
+    }
+
+    .singapore-container {
+      display: flex;
+      margin: 0 135px 0 0;
+      .singapore-button-container {
+        display: flex;
+        position: absolute;
+        z-index: 2;
+        margin: 24px 0 0 0;
+        .singapore-color-block {
+          background-color: rgba(247, 181, 0, 1);
+          width: 5px;
+          height: 26px;
+          margin: 0;
+        }
+      }
+      .singapore-image {
+        width: 270px;
+        height: 187px;
+        position: relative;
+      }
+      .singapore-text-container {
+        background-color: #ffffffff;
+        padding: 0 0 0 21px;
+        .singapore-title {
+          margin:5px 0;
+        }
+        .singapore-text {
+          margin-top: 5px;
+        }
+      }
+    }
+  }
+  .date {
+    font-size: 14px;
+    margin: 0;
+  }
+  .button-container{
+      margin-top: 20px;
+  }
 }
